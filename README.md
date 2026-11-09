@@ -4,7 +4,7 @@
 
 I have 17 years of experience building and shipping free-to-play games across mobile and PC, including *FIFA Rivals* and *World War Doh*. I specialize in scalable client architecture, mobile performance, multiplayer systems, and live-ops infrastructure.
 
-📍 Bogotá, Colombia (Full US hours overlap) | 📧 [santiago.gonzalezrozo@outlook.com](mailto:santiago.gonzalezrozo@outlook.com)
+📍 Bogotá, Colombia (Full US hours overlap) | [santiago.gonzalezrozo@outlook.com](mailto:santiago.gonzalezrozo@outlook.com)
 
 ## My Open-Source Unity Toolchain
 
