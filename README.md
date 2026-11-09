@@ -1,4 +1,4 @@
-# Hi, I'm Santiago González Rozo 👋
+# Hi, I'm Santiago González Rozo
 
 **Lead Unity Client Engineer | Client Architecture & Mobile Performance**
 
@@ -17,10 +17,10 @@ I build and maintain tools that solve architecture and performance bottlenecks i
 
 ## 💻 Tech Stack
 
-- **Core:** C#, Unity 6, iOS/Android (IL2CPP)
-- **Architecture:** MVC, Dependency Injection (Fast IoC, Zenject), ECS (LeoECS)
-- **Multiplayer:** Server-Authoritative Systems, State Synchronization, Delta Compression, Photon Quantum
-- **Performance:** Memory Management, GC Allocation Optimization, Addressables
-- **Workflows:** Roslyn Analyzers, Code Generation, CI/CD (Jenkins), Claude Code, Cursor
+### 💻 Tech Stack
+**Core:** C#, Unity 6, iOS/Android (IL2CPP)  
+**Architecture:** MVC, Dependency Injection (Fast IoC, Zenject), ECS (LeoECS), State Synchronization  
+**Performance:** Memory Management, GC Allocation Optimization, Addressables  
+**Workflows:** Roslyn Analyzers, Code Generation, CI/CD (Jenkins), Claude Code / Cursor
 
-📫 **Let's connect on [LinkedIn](https://www.linkedin.com/in/sgonzalezrozo).**
+**Let's connect on [LinkedIn](https://www.linkedin.com/in/sgonzalezrozo).**
