@@ -13,6 +13,8 @@ I build and maintain tools that solve architecture and performance bottlenecks i
 - **[Fast IoC](https://github.com/sgonzalezrozo/unity-fast-ioc)**: A dependency injection framework for Unity with edit-time code generation and no runtime reflection. Benchmarked on four phones in IL2CPP: 3,000 bindings and 1,500 injected objects start in under 125 ms.
 - **[UI Tweens](https://github.com/sgonzalezrozo/unity-ui-tweens)**: A pooled animation engine for Unity UI, built on LeoECS. Benchmarked on four phones: no garbage collections across 17 scenarios.
 - **[Unity Architecture Agents](https://github.com/sgonzalezrozo/unity-architecture-agents)**: Strict MVC architecture rules, Roslyn analyzers, and verification scripts for AI coding assistants (Claude Code, Cursor, Copilot).
+- **Screen System** *(Coming Soon)*: A layer-based UI navigation manager for Unity 6 supporting uGUI and UI Toolkit simultaneously, with automatic Addressables cleanup and blurred modal snapshots that disable background rendering. Benchmarked on Pixel 5 and Galaxy A02s in IL2CPP: 2.6 ms cached screen show, flat memory across 12 scene changes, and zero leaked Addressables handles.
+- **Slot List** *(Coming Soon)*: A virtualized scrolling and layout engine for Unity 6 uGUI (lists, grids, bento layouts, expandable rows, and pagination). Benchmarked on Pixel 5 and Galaxy A02s in IL2CPP: 0.12–0.28 ms per frame and 0 B GC allocations while scrolling 100,000 items.
 
 ## Tech Stack
 
