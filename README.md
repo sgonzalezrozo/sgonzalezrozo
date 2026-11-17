@@ -8,19 +8,18 @@ I have 17 years of experience across four studios, shipping six free-to-play gam
 
 ## My Open-Source Unity Toolchain
 
-I build and maintain tools that solve architecture and performance bottlenecks in Unity:
+I build and maintain tools for the architecture and performance problems of mobile Unity games:
 
-- **[Fast IoC](https://github.com/sgonzalezrozo/unity-fast-ioc)**: A dependency injection framework for Unity with edit-time code generation and no runtime reflection. Benchmarked on four phones in IL2CPP: 3,000 bindings and 1,500 injected objects start in under 125 ms.
-- **[UI Tweens](https://github.com/sgonzalezrozo/unity-ui-tweens)**: A pooled animation engine for Unity UI, built on LeoECS. Benchmarked on four phones: no garbage collections across 17 scenarios.
-- **[Unity Architecture Agents](https://github.com/sgonzalezrozo/unity-architecture-agents)**: Strict MVC architecture rules, Roslyn analyzers, and verification scripts for AI coding assistants (Claude Code, Cursor, Copilot).
-- **Screen System** *(Coming Soon)*: A layer-based UI navigation manager for Unity 6 supporting uGUI and UI Toolkit simultaneously, with automatic Addressables cleanup and blurred modal snapshots that disable background rendering. Benchmarked on Pixel 5 and Galaxy A02s in IL2CPP: 2.6 ms cached screen show, flat memory across 12 scene changes, and zero leaked Addressables handles.
-- **Slot List** *(Coming Soon)*: A virtualized scrolling and layout engine for Unity 6 uGUI (lists, grids, bento layouts, expandable rows, and pagination). Benchmarked on Pixel 5 and Galaxy A02s in IL2CPP: 0.12–0.28 ms per frame and 0 B GC allocations while scrolling 100,000 items.
+- **[Screen System](https://github.com/sgonzalezrozo/unity-screen-system)**: a layer-based UI manager for uGUI and UI Toolkit. Screens share layers with automatic draw order, only what's visible renders, and everything unloads on scene change. On four phones (IL2CPP): 1–5 ms cached shows, flat memory across 12 scene changes, zero leaked Addressables handles.
+- **[Fast IoC](https://github.com/sgonzalezrozo/unity-fast-ioc)**: dependency injection with edit-time code generation and no runtime reflection. 3,000 bindings and 1,500 injected objects start in under 125 ms on four phones.
+- **[UI Scroller](https://github.com/sgonzalezrozo/unity-ui-scroller)**: a zero-allocation recycling scroll view: lists, grids, bento layouts, sections, carousels, nested scrolling and paging. 0.07–0.25 ms per scroll event at 100,000 items on five phones and WebGL.
+- **[Unity Architecture Agents](https://github.com/sgonzalezrozo/unity-architecture-agents)**: strict MVC rules, 14 Roslyn analyzers and verification scripts that keep AI coding assistants (Claude Code, Cursor, Copilot, Rider) on architecture.
+- **[UI Tweens](https://github.com/sgonzalezrozo/unity-ui-tweens)**: pooled UI animation on LeoECS, no garbage collections across 17 scenarios on four phones.
 
-## Tech Stack
-
-**Core:** C#, Unity 6, iOS/Android (IL2CPP)  
-**Architecture:** MVC, Dependency Injection (Fast IoC, Zenject), ECS (LeoECS), State Synchronization  
-**Performance:** Memory Management, GC Allocation Optimization, Addressables  
-**Workflows:** Roslyn Analyzers, Code Generation, CI/CD (Jenkins), Claude Code / Cursor
+### Tech Stack
+**Core:** C#, Unity 6, iOS/Android/WebGL (IL2CPP)
+**Architecture:** MVC, Dependency Injection (Fast IoC, Zenject), ECS (LeoECS), State Synchronization
+**Performance:** Memory Management, Zero-GC Code, Rendering, Addressables, Device Benchmarking
+**Workflows:** Roslyn Analyzers, Code Generation, UPM Packages, CI/CD (Jenkins), Claude Code / Cursor
 
 **Let's connect on [LinkedIn](https://www.linkedin.com/in/sgonzalezrozo).**
