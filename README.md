@@ -13,7 +13,7 @@ I build and maintain tools for the architecture and performance problems of mobi
 - **[Screen System](https://github.com/sgonzalezrozo/unity-screen-system)**: a layer-based UI manager for uGUI and UI Toolkit. Screens share layers with automatic draw order, only what's visible renders, and everything unloads on scene change. On four phones (IL2CPP): 1–5 ms cached shows, flat memory across 12 scene changes, zero leaked Addressables handles.
 - **[Fast IoC](https://github.com/sgonzalezrozo/unity-fast-ioc)**: dependency injection with edit-time code generation and no runtime reflection. 3,000 bindings and 1,500 injected objects start in under 125 ms on four phones.
 - **[UI Scroller](https://github.com/sgonzalezrozo/unity-ui-scroller)**: a zero-allocation recycling scroll view: lists, grids, bento layouts, sections, carousels, nested scrolling and paging. 0.07–0.25 ms per scroll event at 100,000 items on five phones and WebGL.
-- **[Unity Architecture Agents](https://github.com/sgonzalezrozo/unity-architecture-agents)**: strict MVC rules, 14 Roslyn analyzers and verification scripts that keep AI coding assistants (Claude Code, Cursor, Copilot, Rider) on architecture.
+- **[Unity Architecture](https://github.com/sgonzalezrozo/unity-architecture)**: strict MVC architecture rules for Unity client projects, with UI prefab and C# standards. Checked against the code by [Unity Architecture Enforcement](https://github.com/sgonzalezrozo/unity-architecture-enforcement).
 - **[UI Tweens](https://github.com/sgonzalezrozo/unity-ui-tweens)**: pooled UI animation on LeoECS, no garbage collections across 17 scenarios on four phones.
 
 ### Tech Stack
